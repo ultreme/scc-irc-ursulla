@@ -3,6 +3,4 @@ scc-irc-ursulla:
     io.rancher.container.pull_image: always
   tty: false
   stdin_open: false
-  image: moul/scc-irc-ursulla:latest
-  expose:
-    - "8080"
+  image: ultreme/scc-irc-ursulla:latest
